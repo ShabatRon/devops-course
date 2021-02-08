@@ -105,8 +105,6 @@ def calculate():
 print_hello()
 calculate()
 
-
-
 '''
 H.
 Write a program with the following:
@@ -124,8 +122,6 @@ def dev_by_two(num):
     print(num / 2)
 
 
-
-
 '''
 I.
 Write a program with the following:
@@ -141,9 +137,7 @@ def sum_of_num(num1, num2):
 
 
 def cat_strings(str1="str1", str2="str2"):
-    return str(str1)+" "+str(str2)
-
-
+    return str(str1) + " " + str(str2)
 
 
 '''
@@ -157,10 +151,6 @@ for i in range(10):
         print("#", end=" ")
     print()
 
-
-
-
-
 '''
 Create a nested for loop to create X shape (width is 7,
 length is 7):
@@ -170,8 +160,6 @@ for i in range(1, 7):
     print("#")
     for j in range(1, i):
         print("$")
-
-
 
 '''
 Write a program with the following:
@@ -195,19 +183,5 @@ def sum_of_digits(get_num):
         num = (num // 10)
     return sum_of_digits
 
+
 r = sum_of_digits(get_num)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
